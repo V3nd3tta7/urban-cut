@@ -5,7 +5,7 @@ const navigation = document.querySelector("#primary-navigation");
 
 function setMenuOpen(isOpen) {
   menuButton.setAttribute("aria-expanded", String(isOpen));
-  menuButton.setAttribute("aria-label", isOpen ? "Close menu" : "Open menu");
+  menuButton.setAttribute("aria-label", isOpen ? "Закрыть меню" : "Открыть меню");
   navigation.classList.toggle("is-open", isOpen);
 }
 
